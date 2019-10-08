@@ -1,0 +1,82 @@
+/* Reset Elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* General Elements */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px blue;
+  height: 100vh;
+  width: 100vw;
+}
+
+div {
+  background-color: white;
+	/* margin: 5px;
+  padding: 5px; */
+  height: 100%;
+  width: 100%;
+}
+
+h1,
+h2,
+span {
+  font-weight: bold;
+  text-align: left;
+}
+
+h1 {
+  font-size: 30pt;
+  text-align: center;
+}
+
+/* Class Elements */
+.flexbox {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px black;
+  height: 500px;
+  width: 700px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px gold;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px green;
+}
+
+.crystals {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 2px purple;
+}
+
+.point-wrapper {
+  display: flex;
+  border: solid 2px orange;
+}
+
+.game-total,
+.player-total {
+  display: flex;
+  align-items: center;
+  border: solid 2px red;
+}
