@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  
+  <title>Crystal Collector Game</title>
+</head>
+<body>
+  <!-- Game Containers -->
+  <div>
+    <h1 class="header">Crystal Collector</h1>
+  </div>
+
+  <div class="scoreboard">
+		<h2>
+      Wins: <span id="number-of-wins"></span>
+			<br>
+			Losses: <span id="number-of-losses"></span>
+		</h2>
+  </div>
+
+  <div class="crystals">
+		<img src="" class="btn" id="green-crystal" alt="Green Crystal">
+		<img src="" class="btn" id="blue-crystal" alt="Blue Crystal">
+		<img src="" class="btn" id="yellow-crystal" alt="Yellow Crystal">
+		<img src="" class="btn" id="red-crystal" alt="Red Crystal">
+  </div>
+  
+  <div class="game-total">
+		<h2>
+      Number To Get: <span id="random-number"></span>
+    </h2>
+  </div>
+
+  <div class="player-total">
+		<h2>
+      Your current total: <span id="total-score"></span>
+		</h2>
+	</div>
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- Javascript -->
+  <script src="./assets/javascript/game.js"></script>
+</body>
+</html>

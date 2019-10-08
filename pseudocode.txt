@@ -1,0 +1,24 @@
+Crystal Collector game
+1. Display 4 buttons
+  - Replace buttons with images of crystals
+  - Each crystal should have a random number between 1-12
+
+2. Create a random number generator
+  - The number should be between 19-120
+
+3. Create a key event for each button
+  - When clicked each button will add a specific amount of points to the player's total points
+  - The amount each crystal adds should be hidden
+  - Every click should updated player's score counter
+
+4. Create conditional
+  - If player's total score is equal the random number the player wins
+  - If player's score goes above the random number the player loses
+
+5. Game restarts whenever the player wins or loses
+  - Player should see a new random number with each game
+  - All crystals should have a new random number value
+  - Player score and score counter should reset to zero
+
+6. Create a scoreboard to keep track of wins/losses
+  - Do not restart page as a way to restart game
