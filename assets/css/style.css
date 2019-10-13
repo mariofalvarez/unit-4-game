@@ -47,16 +47,6 @@ h1 {
   width: 60vw;
 }
 
-.header {
-  background-color: black;
-  color: pink;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-}
-
 .scoreboard {
   color: pink;
   text-shadow: 6px 6px black;
@@ -68,6 +58,23 @@ h1 {
   top: 50px;
   left: 120px;
   transform: rotate(-20deg);
+}
+
+.header {
+  background-color: black;
+  color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.instructions {
+  background-color: black;
+  color: pink;
+  text-align: center;
+  height: auto;
 }
 
 .crystal-container {
