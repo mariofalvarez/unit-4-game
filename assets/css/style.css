@@ -9,18 +9,17 @@
 
 /* General Elements */
 body {
+  background: url("https://images.unsplash.com/photo-1496715976403-7e36dc43f17b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80");
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 2px blue;
+  font-family: 'Dosis', sans-serif;
   height: 100vh;
   width: 100vw;
 }
 
 div {
-  background-color: rgba(255, 255, 255, 0.404);
-	/* margin: 5px;
-  padding: 5px; */
   height: 100%;
   width: 100%;
 }
@@ -29,11 +28,10 @@ h1,
 h2,
 span {
   font-weight: bold;
-  text-align: left;
 }
 
 h1 {
-  font-size: 30pt;
+  font-size: 50pt;
   text-align: center;
 }
 
@@ -43,40 +41,68 @@ h1 {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  border: solid 2px black;
-  height: 100vh;
-  width: 100vw;
+  border-radius: 50px;
+  border: solid 5px pink;
+  height: 60vh;
+  width: 60vw;
 }
 
 .header {
+  background-color: black;
+  color: pink;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 2px gold;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 .scoreboard {
+  color: pink;
+  text-shadow: 6px 6px black;
+  font-size: 30px;
+  text-align: left;
+  position: absolute;
+  height: auto;
+  width: auto;
+  top: 50px;
+  left: 120px;
+  transform: rotate(-20deg);
+}
+
+.crystal-container {
+  background-color: black;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  border: solid 2px green;
+}
+
+.crystal-container img {
+  background-color: black;
+  height: 100%;
 }
 
 .crystals {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border: solid 2px purple;
+  height: 100%;
+  width: auto;
+}
+
+.crystals:hover img {
+  border: 3px solid pink;
+  border-radius: 50%;
 }
 
 .point-wrapper {
   display: flex;
-  border: solid 2px orange;
+  background-color: black ;
+  color: pink;
+  font-size: 20 px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 
 .game-total,
 .player-total {
   display: flex;
   align-items: center;
-  border: solid 2px red;
 }
